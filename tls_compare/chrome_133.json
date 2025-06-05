@@ -1,0 +1,397 @@
+{
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "ja3_hash": "468754bbcbb859db360b39bf1f6f8ceb",
+    "ja3_text": "771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,27-65281-10-65037-17613-51-11-13-45-18-35-0-16-43-23-5,4588-29-23-24,0",
+    "ja3n_hash": "8e19337e7524d2573be54efb2b0784c9",
+    "ja3n_text": "771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,0-5-10-11-13-16-18-23-27-35-43-45-51-17613-65037-65281,4588-29-23-24,0",
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+    "ja4_r": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+    "ja4_o": "t13d1516h2_acb858a92679_b544ca8bfd4d",
+    "ja4_ro": "t13d1516h2_1301,1302,1303,c02b,c02f,c02c,c030,cca9,cca8,c013,c014,009c,009d,002f,0035_001b,ff01,000a,fe0d,44cd,0033,000b,000d,002d,0012,0023,0000,0010,002b,0017,0005_0403,0804,0401,0503,0805,0501,0806,0601",
+    "akamai_hash": "52d84b11737d980aef856699f885ca86",
+    "akamai_text": "1:65536;2:0;4:6291456;6:262144|15663105|0|m,a,s,p",
+    "tls": {
+      "cipher_suite": [
+        {
+          "name": "TLS_AES_128_GCM_SHA256",
+          "value": 4865
+        }
+      ],
+      "connection_version": [
+        {
+          "name": "TLS 1.3",
+          "value": 772
+        }
+      ],
+      "record_version": [
+        {
+          "name": "TLS 1.0",
+          "value": 769
+        }
+      ],
+      "handshake_version": [
+        {
+          "name": "TLS 1.2",
+          "value": 771
+        }
+      ],
+      "cipher_suites": [
+        {
+          "name": "GREASE",
+          "value": 2570
+        },
+        {
+          "name": "TLS_AES_128_GCM_SHA256",
+          "value": 4865
+        },
+        {
+          "name": "TLS_AES_256_GCM_SHA384",
+          "value": 4866
+        },
+        {
+          "name": "TLS_CHACHA20_POLY1305_SHA256",
+          "value": 4867
+        },
+        {
+          "name": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+          "value": 49195
+        },
+        {
+          "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+          "value": 49199
+        },
+        {
+          "name": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+          "value": 49196
+        },
+        {
+          "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+          "value": 49200
+        },
+        {
+          "name": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+          "value": 52393
+        },
+        {
+          "name": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+          "value": 52392
+        },
+        {
+          "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "value": 49171
+        },
+        {
+          "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "value": 49172
+        },
+        {
+          "name": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "value": 156
+        },
+        {
+          "name": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "value": 157
+        },
+        {
+          "name": "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "value": 47
+        },
+        {
+          "name": "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "value": 53
+        }
+      ],
+      "extensions": [
+        {
+          "name": "GREASE",
+          "value": 2570
+        },
+        {
+          "name": "compress_certificate",
+          "value": 27,
+          "data": {
+            "algorithms": [
+              {
+                "name": "brotli",
+                "value": 2
+              }
+            ]
+          }
+        },
+        {
+          "name": "renegotiation_info",
+          "value": 65281
+        },
+        {
+          "name": "supported_groups",
+          "value": 10,
+          "data": {
+            "named_groups": [
+              {
+                "name": "GREASE",
+                "value": 2570
+              },
+              {
+                "name": "X25519MLKEM768",
+                "value": 4588
+              },
+              {
+                "name": "X25519",
+                "value": 29
+              },
+              {
+                "name": "secp256r1",
+                "value": 23
+              },
+              {
+                "name": "secp384r1",
+                "value": 24
+              }
+            ]
+          }
+        },
+        {
+          "name": "encrypted_client_hello",
+          "value": 65037,
+          "data": {
+            "client_hello_type": [
+              {
+                "name": "Outer Client Hello",
+                "value": 0
+              }
+            ],
+            "kdf_id": [
+              {
+                "name": "HKDF_SHA256",
+                "value": 1
+              }
+            ],
+            "aead_id": [
+              {
+                "name": "AES-128-GCM",
+                "value": 1
+              }
+            ],
+            "config_id": 88,
+            "enc_length": 32,
+            "payload_length": 176
+          }
+        },
+        {
+          "name": "application_settings",
+          "value": 17613,
+          "data": {
+            "supported_protocols": [
+              "h2"
+            ]
+          }
+        },
+        {
+          "name": "key_share",
+          "value": 51,
+          "data": {
+            "named_groups": [
+              {
+                "name": "GREASE",
+                "value": 2570,
+                "key_exchange_length": 1
+              },
+              {
+                "name": "X25519MLKEM768",
+                "value": 4588,
+                "key_exchange_length": 1216
+              },
+              {
+                "name": "X25519",
+                "value": 29,
+                "key_exchange_length": 32
+              }
+            ]
+          }
+        },
+        {
+          "name": "ec_point_formats",
+          "value": 11,
+          "data": {
+            "ec_point_format_list": [
+              {
+                "name": "uncompressed",
+                "value": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "signature_algorithms",
+          "value": 13,
+          "data": {
+            "algorithms": [
+              {
+                "name": "ecdsa_secp256r1_sha256",
+                "value": 1027
+              },
+              {
+                "name": "rsa_pss_rsae_sha256",
+                "value": 2052
+              },
+              {
+                "name": "rsa_pkcs1_sha256",
+                "value": 1025
+              },
+              {
+                "name": "ecdsa_secp384r1_sha384",
+                "value": 1283
+              },
+              {
+                "name": "rsa_pss_rsae_sha384",
+                "value": 2053
+              },
+              {
+                "name": "rsa_pkcs1_sha384",
+                "value": 1281
+              },
+              {
+                "name": "rsa_pss_rsae_sha512",
+                "value": 2054
+              },
+              {
+                "name": "rsa_pkcs1_sha512",
+                "value": 1537
+              }
+            ]
+          }
+        },
+        {
+          "name": "psk_key_exchange_modes",
+          "value": 45,
+          "data": {
+            "ke_modes": [
+              {
+                "name": "psk_dhe_ke",
+                "value": 1
+              }
+            ]
+          }
+        },
+        {
+          "name": "signed_certificate_timestamp",
+          "value": 18
+        },
+        {
+          "name": "session_ticket",
+          "value": 35
+        },
+        {
+          "name": "server_name",
+          "value": 0,
+          "data": {
+            "server_name": "tls.browserleaks.com"
+          }
+        },
+        {
+          "name": "application_layer_protocol_negotiation",
+          "value": 16,
+          "data": {
+            "protocol_name_list": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        {
+          "name": "supported_versions",
+          "value": 43,
+          "data": {
+            "supported_versions": [
+              {
+                "name": "GREASE",
+                "value": 2570
+              },
+              {
+                "name": "TLS 1.3",
+                "value": 772
+              },
+              {
+                "name": "TLS 1.2",
+                "value": 771
+              }
+            ]
+          }
+        },
+        {
+          "name": "extended_master_secret",
+          "value": 23
+        },
+        {
+          "name": "status_request",
+          "value": 5,
+          "data": {
+            "status_type": [
+              {
+                "name": "ocsp",
+                "value": 1
+              }
+            ],
+            "responder_id_list": 0,
+            "request_extensions": 0
+          }
+        },
+        {
+          "name": "GREASE",
+          "value": 2570
+        }
+      ]
+    },
+    "http2": [
+      {
+        "type": "SETTINGS",
+        "length": 24,
+        "settings": [
+          "SETTINGS_HEADER_TABLE_SIZE: 65536",
+          "SETTINGS_ENABLE_PUSH: 0",
+          "SETTINGS_INITIAL_WINDOW_SIZE: 6291456",
+          "SETTINGS_MAX_HEADER_LIST_SIZE: 262144"
+        ]
+      },
+      {
+        "type": "WINDOW_UPDATE",
+        "length": 4,
+        "window_size_increment": 15663105
+      },
+      {
+        "type": "HEADERS",
+        "length": 468,
+        "stream_id": 1,
+        "headers": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "cache-control",
+          "sec-ch-ua",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "upgrade-insecure-requests",
+          "user-agent",
+          "accept",
+          "sec-fetch-site",
+          "sec-fetch-mode",
+          "sec-fetch-user",
+          "sec-fetch-dest",
+          "accept-encoding",
+          "accept-language",
+          "priority"
+        ],
+        "flags": [
+          "END_STREAM",
+          "END_HEADERS",
+          "PRIORITY"
+        ],
+        "priority": {
+          "weight": 0,
+          "dep_id": 0,
+          "exclusive": 1
+        }
+      }
+    ]
+  }
