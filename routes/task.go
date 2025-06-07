@@ -62,11 +62,6 @@ func CreateTaskRoute(c echo.Context) error {
 		}
 	}()
 
-	apiKey := c.Request().Header.Get("api-key")
-	if apiKey == "" {
-		return c.JSON(http.StatusUnauthorized, map[string]string{"error": "Missing API key"})
-	}
-
 	contentType := c.Request().Header.Get("Content-Type")
 	if contentType != "application/json" {
 		return c.JSON(http.StatusUnsupportedMediaType, map[string]interface{}{
